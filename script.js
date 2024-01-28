@@ -5,7 +5,7 @@ function calculateArea(radius) {
     return area;
 }
 
-var radius = 10;
+var radius = prompt("Enter your Value: ");
 var area = calculateArea(radius);
 console.log("The area of the circle with radius " + radius + " is: " + area);
 
